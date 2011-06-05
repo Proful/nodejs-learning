@@ -1,1 +1,9 @@
-I used js2coffee for converting the app.js (express main file) to app.coffee. So that I can write in coffeescript instead of js.
+I used js2coffee for converting the app.js (express main file) to app.coffee. So that I can write 
+in coffeescript instead of js.
+
+Installing js2coffee
+npm install js2coffee
+
+Vim auto compile coffee script to js
+
+autocmd BufWritePost,FileWritePost *.coffee :silent !coffee -c <afile>
