@@ -1,0 +1,6 @@
+Auto loading changes to the app.js file. Use supervisor
+
+npm install supervisor
+
+Starting..
+supervisor -p app.js
