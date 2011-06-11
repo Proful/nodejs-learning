@@ -1,3 +1,6 @@
 # Find all the coffe files present inside the directory and delete them.
 find test/express_ex_mvc -name "*.coffee" -type f | xargs /bin/rm -f
 
+#irssi tip
+#how to scroll up and down
+fn + shift + arrow up/down
