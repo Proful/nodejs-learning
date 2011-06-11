@@ -1,0 +1,3 @@
+# Find all the coffe files present inside the directory and delete them.
+find test/express_ex_mvc -name "*.coffee" -type f | xargs /bin/rm -f
+

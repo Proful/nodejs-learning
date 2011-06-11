@@ -4,3 +4,9 @@ npm install supervisor
 
 Starting..
 supervisor -p app.js
+
+jade form
+form#new_song(method='post')
+    label Song Name:
+        input(name='song[name]', type='text')
+    input(name='Save',value='Save',type='submit')
